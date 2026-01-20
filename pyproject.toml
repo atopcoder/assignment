@@ -1,0 +1,13 @@
+[project]
+name = "context-matcher"
+version = "0.1.0"
+description = "Context matching API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn>=0.27",
+]
+
+[tool.uv]
+dev-dependencies = []
